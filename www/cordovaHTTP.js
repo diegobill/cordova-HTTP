@@ -101,8 +101,8 @@ var http = {
 };
 
 module.exports = http;
-
-if (typeof angular !== "undefined") {
+window.cordovaHTTP = http;
+/*if (typeof angular !== "undefined") {
     angular.module('cordovaHTTP', []).factory('cordovaHTTP', function($timeout, $q) {
         function makePromise(fn, args, async) {
             var deferred = $q.defer();
@@ -173,3 +173,4 @@ if (typeof angular !== "undefined") {
 } else {
     window.cordovaHTTP = http;
 }
+*/
