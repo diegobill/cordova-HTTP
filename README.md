@@ -14,12 +14,14 @@ Please check [CHANGELOG.md](CHANGELOG.md) for details about updating to a new ve
 
 ## Installation
 
-The plugin conforms to the Cordova plugin specification, it can be installed
+For main wymsee: The plugin conforms to the Cordova plugin specification, it can be installed
 using the Cordova / Phonegap command line interface.
 
     phonegap plugin add cordova-plugin-http
 
     cordova plugin add cordova-plugin-http
+    
+Install this plugin from local downloaded version, I have no clue to make it install over CL, help is much appreciated.
 
 ## Usage
 
